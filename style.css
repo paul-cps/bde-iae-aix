@@ -40,7 +40,7 @@ a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 
 /* ---- TYPOGRAPHY ---- */
-h1 { font-family: 'Bebas Neue', sans-serif; }
+h1 { font-family: 'Anton', sans-serif; }
 h2, h3, .nav-logo, .section-title { font-family: 'Outfit', sans-serif; }
 
 /* ---- BUTTONS ---- */
@@ -328,10 +328,10 @@ h2, h3, .nav-logo, .section-title { font-family: 'Outfit', sans-serif; }
 .hero-title {
   display: flex;
   flex-direction: column;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(4.5rem, 9vw, 8rem);
-  line-height: 0.95;
-  letter-spacing: 0.02em;
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(4rem, 8.5vw, 7.5rem);
+  line-height: 1;
+  letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 28px;
   animation: fadeUp 0.7s ease 0.1s both;
