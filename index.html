@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BDE IAE Aix — 2026/2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="nav-logo-bee">🐝</span>
+        <span>BDE IAE Aix</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#events">Soirées</a></li>
+        <li><a href="#galerie">Photos</a></li>
+        <li><a href="#billets">Billets</a></li>
+        <li><a href="#equipe">L'équipe</a></li>
+        <li><a href="#amelioration">Ton avis</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobile-menu">
+      <a href="#events">Soirées</a>
+      <a href="#galerie">Photos</a>
+      <a href="#billets">Billets</a>
+      <a href="#equipe">L'équipe</a>
+      <a href="#amelioration">Ton avis</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+    <div class="hero-glow hero-glow--3"></div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">✦ Année 2026 — 2027 ✦</div>
+        <h1 class="hero-title">
+          <span class="hero-title-line">Le BDE qui</span>
+          <span class="hero-title-line hero-title-accent">fait vibrer</span>
+          <span class="hero-title-line">l'IAE d'Aix</span>
+        </h1>
+        <p class="hero-sub">Soirées, events, bonne humeur — on gère tout pour que ta vie étudiante soit mémorable.</p>
+        <div class="hero-actions">
+          <a href="#events" class="btn btn-primary">Voir les soirées</a>
+          <a href="#billets" class="btn btn-ghost-light">Acheter des billets</a>
+        </div>
+      </div>
+      <div class="hero-logo-wrap">
+        <div class="hero-logo-glow"></div>
+        <img src="logo.jpeg" alt="BDE IAE Aix logo" class="hero-logo" />
+      </div>
+    </div>
+
+    <!-- NEXT EVENT BANNER -->
+    <div class="next-event-banner">
+      <span class="next-event-dot"></span>
+      <span class="next-event-label">Prochain event</span>
+      <span class="next-event-title">🎉 Soirée de Rentrée — 18 septembre 2026</span>
+      <a href="#billets" class="next-event-link">Billets →</a>
+    </div>
+  </section>
+
+  <!-- EVENTS / CALENDRIER -->
+  <section class="section" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">📅 Calendrier</span>
+        <h2 class="section-title">Les soirées à venir</h2>
+        <p class="section-desc">Réserve tes dates, on s'occupe du reste.</p>
+      </div>
+      <div class="events-grid">
+
+        <div class="event-card event-card--next">
+          <div class="event-card-date">
+            <span class="event-day">18</span>
+            <span class="event-month">SEP</span>
+          </div>
+          <div class="event-card-info">
+            <span class="event-tag">Rentrée</span>
+            <h3>Soirée de Rentrée</h3>
+            <p>La soirée qui lance l'année. Ambiance électro, open bar première heure, surprises.</p>
+            <div class="event-meta">
+              <span>📍 Le Mirage, Aix</span>
+              <span>🕙 22h → 5h</span>
+            </div>
+          </div>
+          <a href="#billets" class="event-cta">Billets</a>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-date">
+            <span class="event-day">24</span>
+            <span class="event-month">OCT</span>
+          </div>
+          <div class="event-card-info">
+            <span class="event-tag">Halloween</span>
+            <h3>Nuit des Morts</h3>
+            <p>Costume obligatoire. Le plus flippant de la nuit gagne une bouteille.</p>
+            <div class="event-meta">
+              <span>📍 L'Underground, Aix</span>
+              <span>🕙 23h → 6h</span>
+            </div>
+          </div>
+          <a href="#billets" class="event-cta">Billets bientôt</a>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-date">
+            <span class="event-day">05</span>
+            <span class="event-month">DÉC</span>
+          </div>
+          <div class="event-card-info">
+            <span class="event-tag">Winter</span>
+            <h3>Winter Glow</h3>
+            <p>Soirée blanche & dorée pour finir le semestre en beauté.</p>
+            <div class="event-meta">
+              <span>📍 TBA</span>
+              <span>🕙 22h → 5h</span>
+            </div>
+          </div>
+          <a href="#billets" class="event-cta">Bientôt</a>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-date">
+            <span class="event-day">14</span>
+            <span class="event-month">FÉV</span>
+          </div>
+          <div class="event-card-info">
+            <span class="event-tag">Saint-Valentin</span>
+            <h3>Love & Lose</h3>
+            <p>Venez seul, repartez à deux (ou pas). Speed dating + afterparty.</p>
+            <div class="event-meta">
+              <span>📍 TBA</span>
+              <span>🕙 19h → 4h</span>
+            </div>
+          </div>
+          <a href="#billets" class="event-cta">Bientôt</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE PHOTOS -->
+  <section class="section section--dark" id="galerie">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">📸 Galerie</span>
+        <h2 class="section-title">Les soirées en images</h2>
+        <p class="section-desc">Toutes les photos de vos nuits — retrouvez-les, partagez-les.</p>
+      </div>
+      <div class="galerie-grid">
+
+        <div class="galerie-card">
+          <div class="galerie-cover galerie-cover--1">
+            <div class="galerie-overlay">
+              <span class="galerie-count">120 photos</span>
+            </div>
+          </div>
+          <div class="galerie-info">
+            <h3>Soirée de Rentrée 2025</h3>
+            <p>Sept. 2025 · Le Mirage</p>
+            <a href="https://drive.google.com" target="_blank" class="galerie-btn">Voir les photos →</a>
+          </div>
+        </div>
+
+        <div class="galerie-card">
+          <div class="galerie-cover galerie-cover--2">
+            <div class="galerie-overlay">
+              <span class="galerie-count">87 photos</span>
+            </div>
+          </div>
+          <div class="galerie-info">
+            <h3>Halloween Night</h3>
+            <p>Oct. 2025 · L'Underground</p>
+            <a href="https://drive.google.com" target="_blank" class="galerie-btn">Voir les photos →</a>
+          </div>
+        </div>
+
+        <div class="galerie-card">
+          <div class="galerie-cover galerie-cover--3">
+            <div class="galerie-overlay">
+              <span class="galerie-count">203 photos</span>
+            </div>
+          </div>
+          <div class="galerie-info">
+            <h3>Winter Glow 2025</h3>
+            <p>Déc. 2025 · Palais des Sports</p>
+            <a href="https://drive.google.com" target="_blank" class="galerie-btn">Voir les photos →</a>
+          </div>
+        </div>
+
+        <div class="galerie-card">
+          <div class="galerie-cover galerie-cover--4">
+            <div class="galerie-overlay">
+              <span class="galerie-count">156 photos</span>
+            </div>
+          </div>
+          <div class="galerie-info">
+            <h3>Soirée Jungle</h3>
+            <p>Mars 2026 · TBA</p>
+            <a href="https://drive.google.com" target="_blank" class="galerie-btn">Voir les photos →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BILLETS -->
+  <section class="section" id="billets">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">🎟️ Billetterie</span>
+        <h2 class="section-title">Réserve ta place</h2>
+        <p class="section-desc">Les places partent vite. Ne loupe pas la prochaine soirée.</p>
+      </div>
+      <div class="billets-grid">
+
+        <div class="billet-card billet-card--featured">
+          <div class="billet-header">
+            <span class="billet-event-name">Soirée de Rentrée</span>
+            <span class="billet-date">18 sept. 2026</span>
+          </div>
+          <div class="billet-price-block">
+            <div class="billet-tier">
+              <span class="tier-name">Early Bird</span>
+              <span class="tier-price">8€</span>
+              <span class="tier-status tier-status--sold">Épuisé</span>
+            </div>
+            <div class="billet-tier">
+              <span class="tier-name">Prévente</span>
+              <span class="tier-price">12€</span>
+              <span class="tier-status tier-status--available">Disponible</span>
+            </div>
+            <div class="billet-tier">
+              <span class="tier-name">Sur place</span>
+              <span class="tier-price">16€</span>
+              <span class="tier-status">—</span>
+            </div>
+          </div>
+          <a href="https://shotgun.live" target="_blank" class="btn btn-primary btn-full">Acheter sur Shotgun →</a>
+        </div>
+
+        <div class="billet-card">
+          <div class="billet-header">
+            <span class="billet-event-name">Nuit des Morts</span>
+            <span class="billet-date">24 oct. 2026</span>
+          </div>
+          <div class="billet-coming">
+            <span>🎃</span>
+            <p>Vente ouverte le 1er octobre</p>
+          </div>
+          <button class="btn btn-ghost btn-full" disabled>Bientôt disponible</button>
+        </div>
+
+        <div class="billet-card">
+          <div class="billet-header">
+            <span class="billet-event-name">Winter Glow</span>
+            <span class="billet-date">5 déc. 2026</span>
+          </div>
+          <div class="billet-coming">
+            <span>❄️</span>
+            <p>Vente ouverte mi-novembre</p>
+          </div>
+          <button class="btn btn-ghost btn-full" disabled>Bientôt disponible</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="section section--pink-tint" id="equipe">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">👥 L'équipe</span>
+        <h2 class="section-title">Ceux qui font tourner la machine</h2>
+        <p class="section-desc">Une équipe passionnée, au service de ta vie étudiante.</p>
+      </div>
+      <div class="team-grid">
+
+        <div class="team-card team-card--president">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#E8186D">
+            <span>LP</span>
+          </div>
+          <div class="team-info">
+            <h3>Léo & Paul</h3>
+            <span class="team-role">Co-Présidents</span>
+            <p>Les deux têtes de la bête. Ils ont la vision, le carnet d'adresses, et une tolérance zéro pour les events ratés.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#ff6b9d">
+            <span>SA</span>
+          </div>
+          <div class="team-info">
+            <h3>Sofia A.</h3>
+            <span class="team-role">Trésorière</span>
+            <p>Les finances du BDE, c'est elle. Chaque euro est tracé, chaque budget tenu.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#ffb347">
+            <span>MK</span>
+          </div>
+          <div class="team-info">
+            <h3>Marcus K.</h3>
+            <span class="team-role">Responsable Events</span>
+            <p>Logistique, lieux, planning — il jongle avec tout sans jamais perdre le sourire.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#7c4dff">
+            <span>CL</span>
+          </div>
+          <div class="team-info">
+            <h3>Camille L.</h3>
+            <span class="team-role">Communication</span>
+            <p>Affiches, réseaux, stories — l'identité visuelle du BDE, c'est elle.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#00c8a0">
+            <span>TR</span>
+          </div>
+          <div class="team-info">
+            <h3>Thomas R.</h3>
+            <span class="team-role">Partenariats</span>
+            <p>Sponsors, bars, salles — il négocie pour que vos soirées coûtent moins cher.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar team-avatar--placeholder" style="--c:#E8186D">
+            <span>JB</span>
+          </div>
+          <div class="team-info">
+            <h3>Jade B.</h3>
+            <span class="team-role">Secrétaire</span>
+            <p>L'organisation interne, les mails, les réunions — rien ne se perd avec elle.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AMELIORATION -->
+  <section class="section section--dark" id="amelioration">
+    <div class="container">
+      <div class="amelio-wrap">
+        <div class="amelio-text">
+          <span class="section-eyebrow">💬 Ton avis compte</span>
+          <h2 class="section-title">Aide-nous à faire mieux</h2>
+          <p>Le BDE existe pour toi. Dis-nous ce qui marche, ce qui manque, ce que tu voudrais voir cette année. Chaque retour est lu et pris en compte — promis.</p>
+          <ul class="amelio-points">
+            <li>✦ Anonyme si tu le souhaites</li>
+            <li>✦ 2 minutes maximum</li>
+            <li>✦ Lu par les co-présidents chaque semaine</li>
+          </ul>
+        </div>
+        <div class="amelio-cta-block">
+          <div class="amelio-card">
+            <span class="amelio-icon">📝</span>
+            <h3>Questionnaire d'amélioration</h3>
+            <p>Partage tes idées, tes retours sur les events passés ou tes suggestions pour la suite.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVbxiuDgBZ7IaN8ewkJAyC6G-Z8eYCR-tpTIWy6SsrMeaACA/viewform" target="_blank" class="btn btn-primary">Donner mon avis →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <span class="section-eyebrow">📬 Contact</span>
+          <h2 class="section-title">On est là</h2>
+          <p>Une question, un partenariat, une idée folle ? Écris-nous, on répond vite.</p>
+          <div class="contact-channels">
+            <a href="https://instagram.com" target="_blank" class="contact-channel">
+              <span>📸</span>
+              <div>
+                <strong>Instagram</strong>
+                <span>@bde.iae.aix</span>
+              </div>
+            </a>
+            <a href="mailto:bde@iae-aix.fr" class="contact-channel">
+              <span>✉️</span>
+              <div>
+                <strong>Email</strong>
+                <span>bde@iae-aix.fr</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Ton prénom" required />
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Ton nom" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="ton.email@iae-aix.fr" required />
+            </div>
+            <div class="form-group">
+              <label for="sujet">Sujet</label>
+              <select id="sujet" name="sujet">
+                <option value="">Choisir un sujet...</option>
+                <option>Question générale</option>
+                <option>Partenariat</option>
+                <option>Problème avec un billet</option>
+                <option>Rejoindre le BDE</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Ton message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+            <div class="form-success" id="form-success">✅ Message envoyé ! On revient vers toi rapidement.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-bee">🐝</span>
+          <span>BDE IAE Aix — 2026/2027</span>
+        </div>
+        <div class="footer-links">
+          <a href="#events">Soirées</a>
+          <a href="#galerie">Photos</a>
+          <a href="#equipe">Équipe</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-copy">
+          Fait avec 🩷 par le BDE IAE Aix
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
